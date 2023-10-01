@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginOrRegisterActivity">
+
+    <ImageView
+        android:id="@+id/girl_with_blue_hair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:src="@drawable/girl_with_blue_hair"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.402" />
+
+    <ImageView
+        android:id="@+id/hilbert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:src="@drawable/hilbert"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.388" />
+
+    <RelativeLayout
+        android:id="@+id/texto_1"
+        android:layout_width="323dp"
+        android:layout_height="145dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752">
+
+        <TextView
+            android:id="@+id/todos_os_po"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/esta_pronto"
+            android:textAppearance="@style/title" />
+
+        <TextView
+            android:id="@+id/acesse_uma_"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_below="@+id/todos_os_po"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/basta_criar"
+            android:textAppearance="@style/paragraph_text" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/createAccountButton"
+        android:layout_width="324dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="transitionFromLoginOrRegisterToRegisterActivity"
+        android:text="@string/criar_conta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <Button
+        android:id="@+id/loginFormButton"
+        android:layout_width="324dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/white"
+        android:onClick="transitionFromLoginOrRegisterToLogin"
+        android:text="@string/ja_tenho"
+        android:textColor="@color/blue"
+        android:textAppearance="@style/button_text_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

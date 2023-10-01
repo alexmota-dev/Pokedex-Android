@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">
+        Pokedex
+    </string>
+    <string name="pok_dex">
+        Pok\u00C3\u00A9dex
+    </string>
+    <string name="todos_os_po">
+        Todos os Pokémons em um só Lugar.
+    </string>
+    <string name="acesse_uma">
+        Acesse uma vasta lista de Pokémon de \ntodas as gerações já feitas pela Nintendo
+    </string>
+    <string name="continuar">
+        Continuar
+    </string>
+    <string name="mantenha_sua">
+        Mantenha sua\n
+        Pokédex atualizada
+    </string>
+    <string name="cadastre_se">
+        Cadastre-se e mantenha seu perfil,\n
+        pokémon favoritos, configurações e muito\n
+        mais, salvos no aplicativo, mesmo sem\n
+        conexão com a internet.
+    </string>
+    <string name="esta_pronto">
+        Está pronto para essa\n
+        aventura?
+    </string>
+    <string name="basta_criar">
+        Basta criar uma conta e começar a explorar\n o mundo dos Pokémon hoje!
+    </string>
+    <string name="criar_conta">
+        Criar conta
+    </string>
+    <string name="ja_tenho">
+        Já tenho uma conta
+    </string>
+    <string name="falta_pouco">
+        Falta pouco para explorar esse mundo!
+    </string>
+    <string name="como_deseja">
+        Como deseja se conectar?
+    </string>
+    <string name="continuar_com_email">
+        Continuar com um e-mail
+    </string>
+    <string name="continuar_com_google">
+        Continuar com o Google
+    </string>
+    <string name="continuar_com_facebook">
+        Continuar com o Facebook
+    </string>
+    <string name="vamos_comecar">
+        Vamos começar!
+    </string>
+    <string name="qual_seu_email">
+        Qual é o seu e-mail?
+    </string>
+    <string name="agora">
+        Agora&#8230;
+    </string>
+    <string name="crie_uma_senha">
+        Crie uma senha
+    </string>
+    <string name="email">
+        E-mail
+    </string>
+    <string name="password">
+        Senha
+    </string>
+    <string name="sua_senha_deve">
+        Sua senha deve ter pelo menos 8 caracteres
+    </string>
+    <string name="seu_email_deve">
+        Use um endereço de e-mail válido.
+    </string>
+    <string name="esse_sera_nome">
+        Esse será seu nome de usuário no aplicativo.
+    </string>
+    <string name="voltar">
+        Voltar
+    </string>
+    <string name="para_finalizar">
+        Para finalizar
+    </string>
+    <string name="qual_seu_nome">
+        Qual o seu nome ?
+    </string>
+    <string name="name">
+        Nome
+    </string>
+    <string name="sua_conta_criada">
+        Sua conta foi criada\n
+        com Sucesso!
+    </string>
+    <string name="seja_bem_vindo">
+        Seja bem-vindo, treinador! Estamos\n
+        animados para acompanhar sua jornada.
+    </string>
+    <string name="que_bom_te_ver">
+        Que bom te ver aqui\n
+        novamente!
+    </string>
+    <string name="entrar">
+        Entrar
+    </string>
+    <string name="bem_vindo_de_volta">
+        Bem vindo de volta,\n
+        treinador !
+    </string>
+    <string name="preencha_os_dados">
+        Preencha os dados
+    </string>
+</resources>

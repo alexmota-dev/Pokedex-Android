@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onboarding02Activity">
+
+    <ImageView
+        android:id="@+id/Man"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:src="@drawable/hilda"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381" />
+
+    <RelativeLayout
+        android:id="@+id/texto_1"
+        android:layout_width="323dp"
+        android:layout_height="145dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752">
+
+        <TextView
+            android:id="@+id/todos_os_po"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/mantenha_sua"
+            android:textAppearance="@style/title" />
+
+        <TextView
+            android:id="@+id/acesse_uma_"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_below="@+id/todos_os_po"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="1dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/cadastre_se"
+            android:textAppearance="@style/paragraph_text" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ponto"
+        android:layout_width="45dp"
+        android:layout_height="9dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texto_1"
+        app:layout_constraintVertical_bias="0.217">
+
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="28dp"
+            android:layout_height="9dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:background="@drawable/rectangle_1" />
+
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="9dp"
+            android:layout_height="9dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="36dp"
+            android:alpha="0.25"
+            android:background="@drawable/rectangle_2" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/onboardingButton01"
+        android:layout_width="328dp"
+        android:layout_height="58dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_blue"
+        android:onClick="transitionFromOnboarding02tToLoginOrRegister"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/continuar"
+            android:layout_width="135dp"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal|top"
+            android:text="@string/continuar"
+            android:textAppearance="@style/continuar" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

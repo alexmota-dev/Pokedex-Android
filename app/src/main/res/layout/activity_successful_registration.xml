@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuccessfulRegistrationActivity">
+
+    <ImageView
+        android:id="@+id/kid"
+        android:layout_width="247dp"
+        android:layout_height="256dp"
+        android:elevation="3dp"
+        android:src="@drawable/girl_with_green_hair2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.383" />
+
+    <ImageView
+        android:id="@+id/Man"
+        android:layout_width="248dp"
+        android:layout_height="286dp"
+        android:elevation="4dp"
+        android:src="@drawable/boy_with_purple_hair"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <RelativeLayout
+        android:id="@+id/texto_1"
+        android:layout_width="322dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.795">
+
+        <TextView
+            android:id="@+id/todos_os_po"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-3dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/seja_bem_vindo"
+            android:textAppearance="@style/paragraph_text"
+            android:textColor="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/acesse_uma_"
+            android:layout_width="322dp"
+            android:layout_height="63dp"
+            android:gravity="center_horizontal|top"
+            android:lineSpacingExtra="0sp"
+            android:text="@string/sua_conta_criada"
+            android:textAppearance="@style/title" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/continueRegisterEmail"
+        android:layout_width="324dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/blue"
+        android:onClick="transitionFromSuccessfulRegistrationActivityToHomePageActivity"
+        android:text="@string/criar_conta"
+        android:textAppearance="@style/button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="466dp"
+        android:layout_height="446dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/logo_create_account"
+        tools:layout_editor_absoluteX="-28dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
